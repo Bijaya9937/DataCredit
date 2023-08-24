@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.logocontainer{
+    background-color: #ECEDEE;
+}
+.mycontainer{
+    height: 90vh;
+    background-color: #ECEDEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logocontainer img{
+    height: 10vh;
+    margin-left: 10px;
+}
+#alert{
+    display: none;
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: red;
+    font-weight: 400;
+}
+#main{
+    background-color: #FFFFFF;
+    width: 22rem;
+    height: 33rem;
+    padding: 25px;
+    border-radius: 20px;
+}
+#htext{
+	font-weight:600;
+    text-align: center;
+    font-size: 1.4rem;
+    
+}
+.form-control{
+    height: 30px;
+    background-color: #ECEDEE;
+}
+.form-control:focus{
+    background-color: #ECEDEE;
+    border-color: #0069d9;
+}
+.form-label{
+    font-size: 0.8rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+#otp{
+    text-align: end;
+}
+
+#btn{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-top: 20px;
+}
+#logintext{
+	
+	margin-top:10px;
+    cursor:pointer;
+    font-weight: 600;
+}
+
+#alogin{
+    text-decoration:none;
+}
+#container{
+    padding:10px;
+    background-color: #00175a;
+    color:#FFFFFF;
+    text-align: center;
+}

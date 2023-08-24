@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    padding:0;
+}
+body
+{
+    background-color: #ECEDEE;
+}
+.logocontainer img{
+    height: 10vh;
+    margin-left: 10px;
+}
+.container{
+    height:90vh;
+    width:100vw;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.logocontainer{
+    background-color: #ECEDEE;
+}
+.mycontainer
+{
+    height:40rem;
+    width:20rem;
+    background-color:white;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+    border-radius:12px;
+}
+
+.content
+{
+    height:15rem;
+}
+.mark{
+    background-color:white;
+    color:#037f03;
+    padding-top:20px;
+    font-size:1.5rem;
+    font-weight:700;
+    text-align: center;
+}
+.line{
+ font-size:18px;
+ padding:5px 15px;
+ color: #0000ff;
+ text-align:center;
+}
+.heading
+{
+    font-size:1.3rem;
+    text-align:center;
+    color:#000000;
+    font-weight:600;
+    padding:20px;
+}
+
+.gauge {
+  display:flex;
+  align-items:center;
+  flex-direction:column;
+  width: 100%;
+  max-width: 250px;
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  color: #004033;
+}
+
+.gauge__body {
+  width: 100%;
+  height: 0;
+  padding-bottom: 50%;
+  /*background-image: linear-gradient(to right, red, orange, green);*/
+  background: #b4c0be;
+  position: relative;
+  border-top-left-radius: 100% 200%;
+  border-top-right-radius: 100% 200%;
+  overflow: hidden;
+}
+
+.gauge__fill {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: inherit;
+  height: 100%;
+  background-image: linear-gradient(to left, red, orange, green);
+  transform-origin: center top;
+  transform: rotate(0.25turn);
+  transition: transform 0.2s ease-out;
+}
+
+.gauge__cover {
+  width: 75%;
+  height: 150%;
+  background: #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  /* Text */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 25%;
+  box-sizing: border-box;
+}
+.tips
+{
+	
+	font-weight:500;
+	display: inline-block;
+	font-size:1rem;
+	padding:20px;
+}
+.cscore
+{
+	margin-top:20px;
+	font-size:1.2rem;
+	font-weight:600;
+}
+
+
